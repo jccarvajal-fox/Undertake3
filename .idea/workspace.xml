@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="se corrigio algunos errores de mongodb pero faltan" />
+    <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="se corrigio algunos errores de mongodb pero faltan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +92,7 @@
       <workItem from="1775665594134" duration="254000" />
       <workItem from="1775681738226" duration="1060000" />
       <workItem from="1776049502775" duration="73000" />
-      <workItem from="1776298174311" duration="3426000" />
+      <workItem from="1776298174311" duration="4199000" />
     </task>
     <task id="LOCAL-00001" summary="se corrigio algunos errores de mongodb pero faltan">
       <option name="closed" value="true" />
@@ -99,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776301501008</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="se corrigio algunos errores de mongodb pero faltan">
+      <option name="closed" value="true" />
+      <created>1776301714844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776301714844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

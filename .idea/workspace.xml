@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/UsuarioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/UsuarioService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="se corrigio algunos errores de mongodb pero faltan" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,8 +89,17 @@
       <workItem from="1775665594134" duration="254000" />
       <workItem from="1775681738226" duration="1060000" />
       <workItem from="1776049502775" duration="73000" />
-      <workItem from="1776298174311" duration="3114000" />
+      <workItem from="1776298174311" duration="3426000" />
     </task>
+    <task id="LOCAL-00001" summary="se corrigio algunos errores de mongodb pero faltan">
+      <option name="closed" value="true" />
+      <created>1776301501008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776301501008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="se corrigio algunos errores de mongodb pero faltan" />
+    <option name="LAST_COMMIT_MESSAGE" value="se corrigio algunos errores de mongodb pero faltan" />
   </component>
 </project>

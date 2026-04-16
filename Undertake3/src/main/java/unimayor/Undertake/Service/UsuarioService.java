@@ -1,24 +1,22 @@
 package unimayor.Undertake.Service;
 
-import unimayor.Undertake.Model.Usuario;
-import unimayor.Undertake.repository.UsuarioRepository;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
+import unimayor.Undertake.Model.Usuario;
+import unimayor.Undertake.Repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {
-
     @Autowired
     private UsuarioRepository usuarioRepository;
 
     public List<Usuario> obtenerTodos() {
-        return usuarioRepository.findAll();
+        return this.usuarioRepository.findAll();
     }
 
     public Usuario guardar(Usuario usuario) {
-        return usuarioRepository.save(usuario);
+        return (Usuario)this.usuarioRepository.save(usuario);
     }
 
     public Usuario buscarPorId(String id) {
@@ -26,6 +24,6 @@ public class UsuarioService {
     }
 
     public void eliminar(String id) {
-        usuarioRepository.deleteById(id);
+        this.usuarioRepository.deleteById(id);
     }
 }

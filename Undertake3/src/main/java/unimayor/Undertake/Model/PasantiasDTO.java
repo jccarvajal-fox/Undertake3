@@ -1,4 +1,4 @@
-package com.unimayor.Undertake.model;
+package unimayor.Undertake.Model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

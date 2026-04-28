@@ -32,4 +32,9 @@ public class UsuarioController {
     public void eliminar(@PathVariable String id) {
         usuarioService.eliminar(id);
     }
+
+    @PutMapping("/{id}")
+    public Usuario actualizar(@PathVariable Long id, @RequestBody Usuario usuario) {
+        return service.actualizar(id, usuario);
+    }
 }

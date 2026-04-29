@@ -1,6 +1,6 @@
 package unimayor.Undertake.Controller;
 
-import unimayor.Undertake.Model.Mentores;
+import unimayor.Undertake.Model.MentoresDTO;
 import unimayor.Undertake.Service.MentoresService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -15,7 +15,7 @@ public class MentoresController {
     private MentoresService mentoresService;
 
     @GetMapping
-    public List<Mentores> obtenerTodos() {
+    public List<MentoresDTO> obtenerTodos() {
         return mentoresService.obtenerTodos();
     }
 

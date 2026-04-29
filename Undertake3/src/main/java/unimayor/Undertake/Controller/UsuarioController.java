@@ -33,8 +33,4 @@ public class UsuarioController {
         usuarioService.eliminar(id);
     }
 
-    @PutMapping("/{id}")
-    public Usuario actualizar(@PathVariable Long id, @RequestBody Usuario usuario) {
-        return service.actualizar(id, usuario);
-    }
 }

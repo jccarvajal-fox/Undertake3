@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Undertake-Final.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/EmpleosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/EstudiantesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/EventosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/EmpleosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/EstudiantesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/EventosRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/EmpleosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/EstudiantesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/EventosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/com/example/Undertake3/Undertake3/Undertake3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/com/example/Undertake3/Undertake3/Undertake3Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/EventosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/EventosDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/MentoresDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/MentoresDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/PasantiasDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/PasantiasDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -35,16 +46,27 @@
     &quot;assignee&quot;: &quot;danielangulo-04&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jccarvajal-fox/Undertake3.git&quot;,
-    &quot;accountId&quot;: &quot;5cfc35e0-c26b-4369-be28-6563e84b4b7a&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jccarvajal-fox/Undertake3.git",
+    "accountId": "d035491a-4699-460c-93b5-3d9921cc284e"
   }
-}</component>
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="C:\Program Files\Apache\Maven" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="3C5BWixHlE97vRZw1R1MKZBylh0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,8 +82,9 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.Undertake3Application.executor": "Debug",
-    "git-widget-placeholder": "Sebastian",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Undertake3Application.executor": "Run",
+    "git-widget-placeholder": "Camilo",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -89,8 +112,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +133,7 @@
       <workItem from="1776298174311" duration="5600000" />
       <workItem from="1776892126325" duration="2957000" />
       <workItem from="1777391329389" duration="2287000" />
+      <workItem from="1777430901677" duration="2301000" />
     </task>
     <task id="LOCAL-00001" summary="se corrigio algunos errores de mongodb pero faltan">
       <option name="closed" value="true" />

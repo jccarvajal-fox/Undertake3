@@ -4,63 +4,95 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="800ee4e8-befc-4fc0-87f0-0077acd09bfe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Undertake-Final.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/db-forest-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="cambio de rama porque estaba en main soy Sebastian">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/MentorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/MentorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/EventoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/MentorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/PasantiaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/MentoresController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/MentoresController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/MentoresDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/Mentor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/MentoresRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/MentoresRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/EventosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/EventoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/MentoresController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/PasantiasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/PasantiaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/EventosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/PasantiasDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/Pasantia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/EventosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/EventoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/MentoresRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/PasantiaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/PasantiasRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/EventosService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/MentoresService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/PasantiasService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "danielangulo-04"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;danielangulo-04&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jccarvajal-fox/Undertake3.git",
-    "accountId": "5cfc35e0-c26b-4369-be28-6563e84b4b7a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jccarvajal-fox/Undertake3.git&quot;,
+    &quot;accountId&quot;: &quot;5cfc35e0-c26b-4369-be28-6563e84b4b7a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="3D34YmpRyKUSTZvBaQg7eDB0gUa" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3C5BWixHlE97vRZw1R1MKZBylh0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Undertake3Application.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Sebastian",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -80,18 +112,67 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="800ee4e8-befc-4fc0-87f0-0077acd09bfe" name="Changes" comment="" />
-      <created>1777497469584</created>
+      <changelist id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="" />
+      <created>1775665590096</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1777497469584</updated>
-      <workItem from="1777497471254" duration="1779000" />
+      <updated>1775665590096</updated>
+      <workItem from="1775665594134" duration="254000" />
+      <workItem from="1775681738226" duration="1060000" />
+      <workItem from="1776049502775" duration="73000" />
+      <workItem from="1776298174311" duration="5600000" />
+      <workItem from="1776892126325" duration="2957000" />
+      <workItem from="1777391329389" duration="2287000" />
     </task>
+    <task id="LOCAL-00001" summary="se corrigio algunos errores de mongodb pero faltan">
+      <option name="closed" value="true" />
+      <created>1776301501008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1776301501008</updated>
+    </task>
+    <task id="LOCAL-00002" summary="se corrigio algunos errores de mongodb pero faltan">
+      <option name="closed" value="true" />
+      <created>1776301714844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776301714844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hasta aqui se corrijieron errores y ejecuto con normalidad.">
+      <option name="closed" value="true" />
+      <created>1776302610174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776302610174</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="se corrigio algunos errores de mongodb pero faltan" />
+    <MESSAGE value="hasta aqui se corrijieron errores y ejecuto con normalidad." />
+    <option name="LAST_COMMIT_MESSAGE" value="hasta aqui se corrijieron errores y ejecuto con normalidad." />
   </component>
 </project>

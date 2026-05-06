@@ -4,7 +4,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "Pasantias")
-public class PasantiasDTO {
+public class Pasantia {
 
     @Id
     private String id;
@@ -13,10 +13,10 @@ public class PasantiasDTO {
     private String duracion;
     private String descripcion;
 
-    public PasantiasDTO() {
+    public Pasantia() {
     }
 
-    public PasantiasDTO(String id, String empresa, String area, String duracion, String descripcion) {
+    public Pasantia(String id, String empresa, String area, String duracion, String descripcion) {
         this.id = id;
         this.empresa = empresa;
         this.area = area;

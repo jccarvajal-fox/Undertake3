@@ -4,27 +4,27 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import unimayor.Undertake.Model.Estudiante;
-import unimayor.Undertake.Repository.EstudiantesRepository;
+import unimayor.Undertake.Repository.EstudianteRepository;
 
 @Service
-public class EstudiantesService {
+public class EstudianteService {
 
     @Autowired
-    private EstudiantesRepository EstudiantesRepository;
+    private EstudianteRepository EstudianteRepository;
 
     public List<Estudiante> obtenerTodos() {
-        return this.EstudiantesRepository.findAll();
+        return this.EstudianteRepository.findAll();
     }
 
     public Estudiante guardar(Estudiante estudiante) {
-        return this.EstudiantesRepository.save(estudiante);
+        return this.EstudianteRepository.save(estudiante);
     }
 
     public Estudiante buscarPorId(String id) {
-        return this.EstudiantesRepository.findById(id).orElse(null);
+        return this.EstudianteRepository.findById(id).orElse(null);
     }
 
     public void eliminar(String id) {
-        this.EstudiantesRepository.deleteById(id);
+        this.EstudianteRepository.deleteById(id);
     }
 }

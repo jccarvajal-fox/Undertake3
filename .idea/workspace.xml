@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="cambio de rama porque estaba en main soy Sebastian">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/MentorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/MentorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/EventoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/MentorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/PasantiaService.java" afterDir="false" />
+    <list default="true" id="2e9dfe1e-21e0-4a16-9883-bd0d6ebcbba7" name="Changes" comment="ulitmo funcional">
+      <change afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/EventosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/EventoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/MentoresController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/PasantiasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Controller/PasantiaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/EventosDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/PasantiasDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Model/Pasantia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/EventosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/EventoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/MentoresRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/PasantiaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Repository/PasantiasRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/EventosService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/MentoresService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Undertake3/src/main/java/unimayor/Undertake/Service/PasantiasService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,35 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Undertake3Application.executor": "Run",
-    "git-widget-placeholder": "Sebastian",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Undertake3Application.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Sebastian&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mongo"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Undertake3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Undertake3" />
@@ -128,6 +112,10 @@
       <workItem from="1776298174311" duration="5600000" />
       <workItem from="1776892126325" duration="2957000" />
       <workItem from="1777391329389" duration="2287000" />
+      <workItem from="1778101283900" duration="1800000" />
+      <workItem from="1778525861023" duration="2426000" />
+      <workItem from="1778547000516" duration="3929000" />
+      <workItem from="1778642633532" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="se corrigio algunos errores de mongodb pero faltan">
       <option name="closed" value="true" />
@@ -153,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776302610174</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ulitmo funcional">
+      <option name="closed" value="true" />
+      <created>1777503386077</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777503386077</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="se corrigio algunos errores de mongodb pero faltan" />
     <MESSAGE value="hasta aqui se corrijieron errores y ejecuto con normalidad." />
-    <option name="LAST_COMMIT_MESSAGE" value="hasta aqui se corrijieron errores y ejecuto con normalidad." />
+    <MESSAGE value="ulitmo funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="ulitmo funcional" />
   </component>
 </project>

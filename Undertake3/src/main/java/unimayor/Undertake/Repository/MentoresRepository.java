@@ -1,9 +1,7 @@
 package unimayor.Undertake.Repository;
 
-import unimayor.Undertake.Model.Usuario;
-import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.stereotype.Repository;
+import unimayor.Undertake.Model.Mentores;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
-public interface MentoresRepository extends MongoRepository<Usuario, String> {
+public interface MentoresRepository extends JpaRepository<Mentores, Long> {
 }

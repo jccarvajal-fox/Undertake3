@@ -7,41 +7,32 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Usuario {
     @Id
     private String id;
-
     private String nombre;
     private String email;
+    private String password;
+    private String rol;
 
-    // Constructores
     public Usuario() {}
 
-
-
-    public Usuario(String nombre, String email) {
+    public Usuario(String nombre, String email, String password, String rol) {
         this.nombre = nombre;
         this.email = email;
+        this.password = password;
+        this.rol = rol;
     }
 
-    public String getId() {
-        return id;
-    }
+    public String getId() { return id; }
+    public void setId(String id) { this.id = id; }
 
-    public String getNombre() {
-        return nombre;
-    }
+    public String getNombre() { return nombre; }
+    public void setNombre(String nombre) { this.nombre = nombre; }
 
-    public String getEmail() {
-        return email;
-    }
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
 
-    public void setId(String id) {
-        this.id = id;
-    }
+    public String getPassword() { return password; }
+    public void setPassword(String password) { this.password = password; }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
+    public String getRol() { return rol; }
+    public void setRol(String rol) { this.rol = rol; }
 }
